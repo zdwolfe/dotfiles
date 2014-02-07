@@ -1,0 +1,7 @@
+[user]
+	name = zdwolfe
+	email = wolfe.zach@gmail.com
+[push]
+	default = simple
+[alias]
+	exec = "!exec "
