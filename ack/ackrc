@@ -4,14 +4,11 @@
 # always color
 --color
 
-# use vim as my pager
---pager vim
-
 # ignore some directories
 --ignore-dir=node_modules
 --ignore-dir=dist
 --ignore-dir=bower_components
 
 # more types
---type-set=json:ext:json
---type-set=less:ext:less
+--type-add=less=.less
+--type-add=json=.json
