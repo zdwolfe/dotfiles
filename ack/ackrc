@@ -10,5 +10,5 @@
 --ignore-dir=bower_components
 
 # more types
---type-add=less=.less
---type-add=json=.json
+--type-set=less=.less
+--type-set=json=.json
