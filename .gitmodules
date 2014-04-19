@@ -10,3 +10,6 @@
 [submodule "ack"]
 	path = ack
 	url = git@github.com:zdwolfe/ack.git
+[submodule "vim"]
+	path = vim
+	url = git@github.com:zdwolfe/vim.git
