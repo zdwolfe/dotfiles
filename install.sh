@@ -1,14 +1,12 @@
 #!/bin/bash
-DIR="$( cd "$( dirname "$0" )" && pwd )"
-DATE=`date +%s`
+MODULES=`grep path .gitmodules | sed 's/.*= //'`
+git submodule init
 
-for PACKAGE in `ls -1`
+for MODULE in $MODULES
 do
-
-  if [ -f $PACKAGE/install.sh ]
+  if [ -f $MODULE/install.sh ]
   then
-    echo "installing $PACKAGE"
-    sh $PACKAGE/install.sh
+    echo "installing $MODULE"
+    sh $MODULE/install.sh
   fi
-
 done
