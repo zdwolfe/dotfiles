@@ -7,3 +7,6 @@
 [submodule "tmux"]
 	path = tmux
 	url = git@github.com:zdwolfe/tmux.git
+[submodule "git"]
+	path = git
+	url = git@github.com:zdwolfe/git.git
