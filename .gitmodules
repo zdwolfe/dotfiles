@@ -10,3 +10,6 @@
 [submodule "tmux"]
 	path = tmux
 	url = git@github.com:zdwolfe/tmux.git
+[submodule "ack"]
+	path = ack
+	url = git@github.com:zdwolfe/ack.git
